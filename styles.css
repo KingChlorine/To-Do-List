@@ -7,10 +7,56 @@
         display: flex;
         justify-content: center;
 }
-        */
-
+        
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #426A5A;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #426A5A;
+
+    }
+
+.todo {
+    display: flex;
+    justify-content: center;
+    background-color: #CAE9C3;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+
+}
+
+body {background-color: #8ED081}
+    
+
+.add {color: #426A5A;
+     background-color: transparent;
+     border: none;
+     font-size: 20px;
+     border-bottom: 2px solid #426A5A;
+     padding-top: 20px;
+     padding-bottom: 2px;
+    
+    }
+
+.check {accent-color: #426A5A;
+        transform: scale(2);
+       }
+
