@@ -58,6 +58,7 @@ body {background-color: #8ED081}
 
 .check {accent-color: #426A5A;
         transform: scale(2);
+       background-color: #426A5A;
        }
 
 @media (max-width: 600px) 
@@ -69,4 +70,22 @@ body {background-color: #8ED081}
     .todo
     {margin: 0;}
 
+}
+
+#complete {
+   margin: 20px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   background-color: transparent;
+   color: #426A5A;
+   border: 2px solid #426A5A;
+}
+
+#complete:hover {
+    background-color: #8ED081;
+}
+
+#complete:active {
+    color: #8ED081;
+    background-color: #426A5A;
 }
