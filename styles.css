@@ -60,3 +60,13 @@ body {background-color: #8ED081}
         transform: scale(2);
        }
 
+@media (max-width: 600px) 
+
+{
+    .checklist
+    {font-size: 12px;}
+
+    .todo
+    {margin: 0;}
+
+}
